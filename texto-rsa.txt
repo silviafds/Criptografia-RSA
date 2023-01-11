@@ -3,3 +3,7 @@
 3) função realiza produto dos dois números primos 
 
 link https://www.youtube.com/watch?v=9m8enHN13mw
+
+https://www.cmmprogressivo.net/2020/09/Funcoes-getter-setter-Const.html
+
+
