@@ -1,5 +1,5 @@
 #include <iostream>
-#include "definicaoPrimos.hpp"
+#include "definicaoPrimos.h"
 
 using namespace std;
 

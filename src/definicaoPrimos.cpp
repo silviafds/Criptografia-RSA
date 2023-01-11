@@ -1,47 +1,36 @@
 #include <iostream>
 #include <math.h>
-#include "definicaoPrimos.hpp"
+#include "definicaoPrimos.h"
 
 using namespace std;
 
-class Primo {
-    private:
-        int primo;
-
-    public:
-        int getPrimo();
-        void setPrimo(int);
-        
-};
-
-int Primo::getPrimo() {
+int Primos::getPrimo() {
     return primo;
 }
 
-void Primo::setPrimo(int p) {
+void Primos::setPrimo(int p) {
     primo = p;
 }
 
 /*
 Primo::Primo(int a) {
     primo = a;
-}
+}*/
 
 void calculo_primos() {
     definirBase();
-}*/
+    mostra();
+}
 
 
 void definirBase() {
-    /*Primo p = new Primo();
-    int x = pow(10, 5);
-    p.
- 
-    Primo primoBase = x;*/
-    Primo primos;
+    Primos primos;
     int x = pow(10, 5);
     primos.setPrimo(x);
     cout << primos.getPrimo() << endl;
+}
 
-
+void mostra() {
+    Primos p;
+    cout << "primo base:" << p.getPrimo() << endl;
 }

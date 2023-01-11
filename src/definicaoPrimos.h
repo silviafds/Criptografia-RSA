@@ -1,7 +1,8 @@
 #ifndef DEFINICAOPRIMOS_H
 #define DEFINICAOPRIMOS_H
+#include <iostream>
 
-class Primo {
+class Primos {
     private:
         int primo;
     public:
@@ -14,5 +15,7 @@ class Primo {
 void calculo_primos();
 
 void definirBase();
+
+void mostra();
 
 #endif
