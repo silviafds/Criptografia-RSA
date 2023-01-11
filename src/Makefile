@@ -1,10 +1,10 @@
-all: ola.o main.o
-	g++ -o main ola.o main.o
+all: definicaoPrimos.o main.o
+	g++ -o main definicaoPrimos.o main.o
 
-ola.o: ola.cpp ola.hpp
-	g++ -c ola.cpp
+definicaoPrimos.o: definicaoPrimos.cpp definicaoPrimos.hpp
+	g++ -c definicaoPrimos.cpp
 
-main.o: main.cpp ola.hpp
+main.o: main.cpp definicaoPrimos.hpp
 	g++ -c main.cpp
 
 clean: 

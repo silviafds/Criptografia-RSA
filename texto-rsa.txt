@@ -1,3 +1,5 @@
 1) função para descobrir números primos
 2) função sorteia dois números primos 
 3) função realiza produto dos dois números primos 
+
+link https://www.youtube.com/watch?v=9m8enHN13mw
